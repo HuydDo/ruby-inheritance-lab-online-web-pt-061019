@@ -28,10 +28,12 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.join(', ')
 # puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
 some_knowledge = avi.teach
+another_knowledge = avi.teach
 nicky.learn(some_knowledge)
+nicky.learn(another_knowledge)
 puts "Nicky just learned this important knowledge: '#{nicky.knowledge.first}' from Avi"
 
-another_knowledge = avi.teach
+
 nicky.learn(another_knowledge)
 puts "Nicky just learned this important knowledge: '#{nicky.knowledge.first}' from Avi"
 
