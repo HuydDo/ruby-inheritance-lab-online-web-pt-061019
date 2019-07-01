@@ -34,9 +34,6 @@ nicky.learn(another_knowledge)
 puts "Nicky just learned this important knowledge: '#{nicky.knowledge.first}' from Avi"
 
 
-nicky.learn(another_knowledge)
-puts "Nicky just learned this important knowledge: '#{nicky.knowledge.first}' from Avi"
-
 # jim = User.new
 # jim.first_name = "Jim"
 # jim.last_name = "Halpert"
