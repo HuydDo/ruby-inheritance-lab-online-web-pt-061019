@@ -23,15 +23,14 @@ steve.learn(some_knowledge)
 steve.learn(another_knowledge)
 puts "Steve just learned this important knowledge: '#{steve.knowledge.join(', ')}' from Avi"
 
-# another_knowledge = avi.teach
-# steve.learn(another_knowledge)
+
 # puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 
 some_knowledge = avi.teach
 another_knowledge = avi.teach
 nicky.learn(some_knowledge)
 nicky.learn(another_knowledge)
-puts "Nicky just learned this important knowledge: '#{nicky.knowledge.first}' from Avi"
+puts "Nicky just learned this important knowledge: '#{nicky.knowledge.join(', ')}' from Avi"
 
 
 # jim = User.new
